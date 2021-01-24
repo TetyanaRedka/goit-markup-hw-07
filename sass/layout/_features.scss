@@ -1,0 +1,49 @@
+
+/* Блок Особенности */
+  .features {
+    padding: 94px 0 47px;
+  }
+  
+  .features-box {
+    display: flex;
+  }
+  
+  .features-list:not(:first-child) {
+    margin-left: 30px;
+  }
+  
+  .features-img {
+    display: block;
+    height: 120px;
+    width: 270px;
+    padding: 0;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    border: none;
+  }
+  .sign {
+    width: 70px;
+    height: 70px;
+  }
+  /*   сделать миксином!!!!!! */
+  .features p {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  /*
+  - оставвляю вариант кода,
+  для подсказок 
+  .features-box li::before {
+    display: block;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .features-box li:nth-child(1)::before {
+    background-image: url(../img/icon/antenna_1.svg);
+  }
+  */

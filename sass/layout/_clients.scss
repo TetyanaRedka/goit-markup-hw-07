@@ -1,0 +1,47 @@
+
+/* Клиенты */
+.clients {
+  padding: 94px 0;
+}
+
+.clients-box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.clients-list:not(:first-child) {
+  margin-left: 30px;
+}
+  
+.clients-link {
+  display: block;
+  height: 90px;
+  width: 170px;
+  padding: 0;
+  border: 1px solid var(--icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 22px;
+  text-align: center;
+  background-color: #ffffff;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+    
+  &:hover,
+  &:focus {
+    border: 1px solid var(--icon-active-back-color);
+  }
+}
+ 
+.clients-img {
+  fill: var(--icon-color);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: var(--icon-active-back-color);
+  }
+}
+

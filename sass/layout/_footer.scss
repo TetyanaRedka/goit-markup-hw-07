@@ -1,0 +1,97 @@
+
+/* футер адрес */
+
+.footer {
+  padding: 60px 0;
+  background-color: #2f303a;
+}
+  
+.footer-address {
+    margin-top: 20px;
+  font-style: normal;
+}
+
+.footer-address-text {
+  color: #ffffff;
+  font-weight: 400;
+  
+  &:not(:first-child) {
+    margin-top: 9px;
+  }
+}
+
+.footer-address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Футер Присоединяйтесь */
+
+.action {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+
+.footer-appeal{
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.14;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+
+/* футер подпишись*/
+  
+.letter {
+  margin-top: 12px;
+  margin-left: auto;
+}
+
+.letter-box {
+  display: flex;
+}
+  
+.letter-form {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.letter-input {
+  width: 358px;
+  height: 50px;
+  margin: 0;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+  
+.letter-text {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  /*шрифт*/
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+
+  .letter-form:focus-within > &,
+  .letter-input:not(:placeholder-shown) + & {
+    transform: translateY(-50px);
+  }
+}
+
+/*
+.letter-form:focus > input {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}*/
+
+ 
